@@ -1,5 +1,10 @@
-puts "this is the comparison operators example"
-puts 5 > 1
-puts 5 == 1 #{5 ==1}
-puts 7<=10
-### The # makes a comment in Ruby 
+name = 'Marie'
+# This will just output Tash
+puts name
+#name = "Tash"
+#This will output Tash & 20 on separate lines
+age = 20
+#Integers do not have "" on them this is only string
+puts name
+puts age
+#
