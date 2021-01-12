@@ -1,16 +1,18 @@
-name = ""
-years = 0
-MONTHS_PER_YEAR = 12 # a constant
-# output variable
+print "What's your first name? "
+first_name = gets.chomp
+first_name.capitalize!.upcase!
 
-# processing
-print "What is your name? "
-name = gets
+print "What's your last name? "
+last_name = gets.chomp
+last_name.capitalize!
 
-print"How old are you? "
-years = gets
+print "What town are you from? "
+town = gets.chomp
+town.capitalize!
 
-months = years * MONTHS_PER_YEAR
+print "What district are you from? "
+district = gets.chomp
+district.capitalize!.upcase!
 
-puts"#{name}, at #{years} years old, "\
-"you are #{months} months old."
+
+puts "Your name is #{first_name} #{last_name} and you're from #{town}, #{district}!"
